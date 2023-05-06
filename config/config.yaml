@@ -82,7 +82,7 @@ autoreply:
   - question: 'working'
     answer: "To report a bug, you can use the following link: \
       [Bug report](https://github.com/bostrot/telegram-support-bot/wiki/Getting-started)  \
-      Alternatively you can create a ticket here.
+      Alternatively you can create a ticket here."
   - question: 'are you sure?'
     answer: 'Yes.'
 # categories:
