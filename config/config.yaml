@@ -28,7 +28,7 @@ dev_mode: true # Enable/disable dev mode
 
 # customize your language
 language:
-  startCommandText: 'Here is DataDash Wallet Support Bot, You Can Ask Me Any Thing! If I Can't Answer, Our Community Will Answer You.'
+  startCommandText: 'Here is DataDash Wallet Support Bot, You Can Ask Me Any Thing! Submit a Bug or Ask for Help, We Are Always Here For You!'
   faqCommandText: 'Check the MXC zkEVM design [here](https://wannsee.mxc.com/docs/intro)'
   helpCommandText: "*Available commands:* /help /faq /id"
   helpCommandStaffText: "*Available commands:*\n
@@ -85,30 +85,30 @@ autoreply:
       Alternatively you can create a ticket here."
   - question: 'are you sure?'
     answer: 'Yes.'
-# categories:
-#  - name: "Category1"
-#    subgroups:
-#    - name: "Sub1"
-#      group_id: "-12345678910"
-#    - name: "Sub2"
-#      group_id: "-12345678910"
-#    - name: "Sub3"
-#      group_id: "-12345678910"
-#  - name: "Category2"
-#    subgroups:
-#    - name: "Sub4"
-#      group_id: "-12345678910"
-#    - name: "Sub5"
-#      group_id: "-12345678910"
-#    - name: "Sub6"
-#      group_id: "-12345678910"
-#  - name: "Category with no subcategories"
-#    group_id: "-12345678910"
-#  - name: "Admin Chat"
-#    group_id: "-12345678910"
-#  - name: "Other issues"
-#    tag: "#other"
-#    msg: "Please specify your order number and describe the problem in as much detail as possible"
-#    group_id: "-12345678910"
-#  - name: "Contact"
-#    msg: "Check out our Website"
+categories:
+ - name: "M2Pro"
+    subgroups:
+    - name: "F&Q"
+      group_id: "-12345678910"
+    - name: "Problem"
+      group_id: "-12345678910"
+    - name: "Suggestion"
+      group_id: "-12345678910"
+  - name: "Neo"
+    subgroups:
+    - name: "F&Q"
+      group_id: "-12345678910"
+    - name: "Problem"
+      group_id: "-12345678910"
+    - name: "Suggestion"
+      group_id: "-12345678910"
+  - name: "ISO"
+    group_id: "-12345678910"
+  - name: "NFT"
+    group_id: "-12345678910"
+  - name: "Other issues"
+    tag: "#other"
+    msg: "Please specify your order number and describe the problem in as much detail as possible"
+    group_id: "-12345678910"
+  - name: "Contact"
+    msg: "Check out our Website [here](https://wannsee.mxc.com/docs/intro)"
