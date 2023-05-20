@@ -28,7 +28,7 @@ dev_mode: false # Enable/disable dev mode
 
 # customize your language
 language:
-  startCommandText: 'Here is DataDash Wallet Support Bot, You Can Ask Me Any Thing! Submit a Bug or Ask for Help, We Are Always Here For You!'
+  startCommandText: 'Here is DataDash Wallet Support Bot, You Can Ask Me Any Thing! Submit a Bug or Ask for Help, We Are Always Here For You! \ 您好这里是DataDash客服，请点选相应问题，提交错误请截图和描述。\Hier ist DataDash Wallet Support Bot, Sie können mich jede Sache fragen! Reichen Sie einen Fehler ein oder bitten Sie um Hilfe, wir sind immer für Sie da!'
   faqCommandText: 'Check the MXC zkEVM design [here](https://wannsee.mxc.com/docs/intro)'
   helpCommandText: "*Available commands:* /help /faq /id"
   helpCommandStaffText: "*Available commands:*\n
@@ -40,7 +40,7 @@ language:
     /clear - *Staff* Closes all tickets \n
     /ban - *Staff* Ban a user from the chat \n
     /unban - *Staff* Unban a user"
-  confirmationMessage: "Thank you for contacting us. We will answer as soon as possible. "
+  confirmationMessage: "Thank you for contacting us. We will answer as soon as possible. \ 感谢您的信息，我们会尽快回复 \ Vielen Dank, dass Sie uns kontaktiert haben. Wir werden so schnell wie möglich antworten. "
   blockedSpam: 'You sent quite a number of questions in the last while. Please calm down and wait until staff reviews them.'
   ticket: 'Ticket'
   closed: 'closed'
@@ -54,11 +54,11 @@ language:
   usr_with_ticket: 'User with ticket'
   banned: 'banned'
   replyPrivate: 'Reply in private'
-  services: 'Select a service from the list below'
+  services: 'Select a service from the list below \ 请在下方点选对应问题 \ Wählen Sie eine Dienstleistung aus der folgenden Liste '
   customer: 'customer'
-  msgForwarding: 'You messages will now be forwarded to vendors of the group: '
+  msgForwarding: 'You messages will now be forwarded to vendors of the group: \您的消息会被转交给相应部门 \ Ihre Nachrichten werden nun an die Verkäufer der Gruppe weitergeleitet: '
   back: 'Go back'
-  whatSubCategory: 'Which subcategory describes your needs the best? '
+  whatSubCategory: 'Which subcategory describes your needs the best? \ 下面哪个类别能描述您的问题？\ Welche Unterkategorie beschreibt Ihre Bedürfnisse am besten? '
   prvChatEnded: 'Private chat ended.'
   prvChatOpened: 'Private Chat opened with customer.'
   prvChatEnd: 'End Private chat'
@@ -86,6 +86,10 @@ autoreply:
 
 
 categories:
+  - name: "🚨Bugs"
+    tag: "#other"
+    msg: "Please put the screenshot or picture and we will fix the bug!\ 请截图或者录屏发给我们，我们会尽快修复\ Bitte fügen Sie den Screenshot oder das Bild ein und wir werden den Fehler beheben!"
+    group_id: "-910551710"
   - name: "M2Pro"
     subgroups:
     - name: "F&Q"
@@ -100,16 +104,16 @@ categories:
     - name: "F&Q"
       group_id: "-910551710"
     - name: "Problem"
-      group_id: "-889923077"
+      group_id: "-910551710"
     - name: "Suggestion"
       group_id: "-910551710"
   - name: "ISO"
     group_id: "-910551710"
   - name: "NFT"
     group_id: "-910551710"
-  - name: "Other issues"
-    tag: "#other"
-    msg: "Please specify your order number and describe the problem in as much detail as possible"
-    group_id: "-910551710"
   - name: "Contact"
-    msg: "Check out our Website [here](https://wannsee.mxc.com/docs/intro)"
+    group_id: "-910551710"
+  - name: "中文联系"
+    group_id: "-910551710"
+  - name: "DACH🇩🇪"
+    group_id: "-910551710"
